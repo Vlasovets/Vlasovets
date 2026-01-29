@@ -10,8 +10,12 @@
 
 
 
-![GitHub Stats](./assets/stats.svg)
-![Top Languages](./assets/languages.svg)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="./assets/stats.svg" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="./assets/languages.svg" alt="Top Languages" />
+</a>
 
 
 
