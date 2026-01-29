@@ -10,12 +10,8 @@
 
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Vlasovets&count_private=true&show_icons=true&theme=buefy&hide_rank=true" alt="Oleg's github stats" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Vlasovets&hide=jupyter%20notebook,html&langs_count=8&layout=compact&card_width=320" alt="Top Languages" />
-</a>
+| <a href="https://github.com/Vlasovets/Oleg"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Vlasovets&count_private=true&show_icons=true&theme=buefy&hide_rank=true" alt="Oleg's github stats" /></a> | <a href="https://github.com/Vlasovets/Oleg"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vlasovets&hide=jupyter%20notebook,html&langs_count=7&layout=compact" /></a> |
+| ------------- | ------------- |
 
 <!-- #### Current Projects
 
