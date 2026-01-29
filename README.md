@@ -4,7 +4,7 @@
 
 - 🧬 Genomics Data Scientist @ [Helmholtz Munich](https://www.helmholtz-munich.de/en/itg)
 
-- ☕ Machine learning / Data Science backround
+- ☕ Machine learning backround
 
 - 🦠 Currently studying bacteria in our gut
 
