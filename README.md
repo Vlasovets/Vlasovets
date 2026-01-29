@@ -11,10 +11,10 @@
 
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="./assets/stats.svg" alt="GitHub Stats" />
+  <img height=200 align="center" src="./assets/stats.svg?v=2" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="./assets/languages.svg" alt="Top Languages" />
+  <img height=200 align="center" src="./assets/languages.svg?v=2" alt="Top Languages" />
 </a>
 
 
