@@ -2,7 +2,7 @@
 
 **About me**
 
-- 🧬 Genomics Data Scientist at Institute of Translational Genomics [Helmholtz Munich](https://www.helmholtz-munich.de/en/itg)
+- 🧬 Genomics Data Scientist @ [Helmholtz Munich](https://www.helmholtz-munich.de/en/itg)
 
 - ☕ Machine learning / Data Science backround
 
