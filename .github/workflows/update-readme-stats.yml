@@ -27,7 +27,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: username=Vlasovets&hide=jupyter%20notebook,html&langs_count=7&layout=compact
+          options: username=Vlasovets&layout=compact&langs_count=8&hide=Jupyter%20Notebook,HTML
           path: assets/languages.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
