@@ -10,8 +10,8 @@
 
 
 
-| <a href="https://github.com/Vlasovets/Oleg"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Vlasovets&include_all_commits=true&theme=buefy&hide_border=true" alt="Oleg's github stats" /></a> | <a href="https://github.com/Vlasovets/Oleg"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vlasovets&hide=jupyter%20notebook,html&langs_count=7&layout=compact" /></a> |
-| ------------- | ------------- |
+![GitHub Stats](./assets/stats.svg)
+![Top Languages](./assets/languages.svg)
 
 
 
