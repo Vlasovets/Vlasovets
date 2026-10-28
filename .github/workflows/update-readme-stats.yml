@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: read
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
 
@@ -21,7 +23,7 @@ jobs:
           card: stats
           options: username=Vlasovets&theme=buefy&show_icons=true&hide_rank=true&cache_seconds=7200
           path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
         uses: soulteary/github-readme-stats-action@v1.0.0
@@ -29,7 +31,15 @@ jobs:
           card: top-langs
           options: username=Vlasovets&layout=compact&langs_count=8&hide=html,css,scss,jupyter notebook
           path: assets/languages.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      # The action exits 0 even when the API call fails and writes an error card instead
+      - name: Check cards are valid
+        run: |
+          if grep -l "Something went wrong" assets/*.svg; then
+            echo "::error::Card generation failed; not committing error cards"
+            exit 1
+          fi
 
       - name: Commit cards
         run: |
